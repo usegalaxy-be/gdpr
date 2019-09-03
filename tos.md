@@ -6,13 +6,13 @@ title: Terms of Service
 
 ## Definitions
 
-Belgium Galaxy Service: any one of the Galaxy sites provided to you by the Belgian ELIXIR node, including but not limited to:
+Belgian Galaxy Service: any one of the Galaxy sites provided to you by the Belgian ELIXIR node, including but not limited to:
 
 - https://usegalaxy.be
 
 ## Use of Service.
 
-The Belgium Galaxy Service is a free, public, Internet
+The Belgian Galaxy Service is a free, public, Internet
 accessible resource (the "Service"). Data transfer is encrypted unless you
 choose to use unencrypted FTP access. Data storage is not encrypted. If there
 are restrictions on the way your research data can be stored and used, please
