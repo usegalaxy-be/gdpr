@@ -1,0 +1,32 @@
+meta:
+    headers:
+        - title: Types
+          comment: The types of personal data
+        - title: Categories
+          comment: The categories of data subjects concerned
+        - title: Purpose
+          comment: The purpose of data processing
+        - title: Recipients
+          comment: The categories of recipients
+        - title: The storage periods
+        - title: Security
+          comment: The technical and organisational security measures to protect the personal data
+        - title: Sent out of EU
+          comment: Whether personal data is transferred to recipients outside the EU
+
+
+data:
+    - types: Email address of UseGalaxy.be users
+      categories: End users
+      purpose: Contacting end users in case of privacy breaches or changes to privacy policies
+      recipients: Administrators of the UseGalaxy.be service
+      storage_period: Until user requests deletion
+      security: Postgresql DB with highly restricted and audited access
+      exported: false
+    - types: Chosen name provided by UseGalaxy.be users
+      categories: End users
+      purpose: Referring to users per their preference in the user interface. Additionally used to refer to user when they choose to share their workflows or data publicly.
+      recipients: Administrators of the UseGalaxy.be service, made public only when the user requests to publish a history/workflow/etc publicly.
+      storage_period: Until user requests deletion
+      security: Postgresql DB with highly restricted and audited access
+      exported: false

@@ -1,0 +1,27 @@
+meta:
+    headers:
+        - title: Datastore
+        - title: contents
+        - title: Access
+        - title: PII
+data:
+    - datastore: Primary Galaxy DB (Postgresql)
+      contents: |
+        All user information, job data
+      access:
+        - IE
+        - FC
+      pii: true
+
+    - datastore: NFS Servers (VSC)
+      contents: |
+        User galaxy dataset store. Datasets themselves are not able to be
+        tied to a user without data stored in the Galaxy database.
+
+        Some directories on the file server include user email addresses.
+
+      access:
+        - IE
+        - FC
+      pii: true
+
