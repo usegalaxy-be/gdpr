@@ -1,5 +1,6 @@
 ---
 layout: history
+author: Ignacio Eguinoa
 title: User Rights under the GDPR
 ---
 
